@@ -1,0 +1,123 @@
+11/03/2020 07:24:31 PM - LoginPhpTravels - INFO: Element found with locator: username and  locatorType: name
+11/03/2020 07:24:31 PM - LoginPhpTravels - INFO: Sent data on element with locator: username locatorType: name
+11/03/2020 07:24:31 PM - LoginPhpTravels - INFO: Element found with locator: password and  locatorType: name
+11/03/2020 07:24:31 PM - LoginPhpTravels - INFO: Sent data on element with locator: password locatorType: name
+11/03/2020 07:24:31 PM - LoginPhpTravels - INFO: Element found with locator: //button[contains(text(),'Login')] and  locatorType: xpath
+11/03/2020 07:24:32 PM - LoginPhpTravels - INFO: Clicked on element with locator: //button[contains(text(),'Login')] locatorType: xpath
+11/03/2020 07:28:11 PM - LoginPhpTravels - INFO: Element found with locator: username and  locatorType: name
+11/03/2020 07:28:11 PM - LoginPhpTravels - INFO: Sent data on element with locator: username locatorType: name
+11/03/2020 07:28:11 PM - LoginPhpTravels - INFO: Element found with locator: password and  locatorType: name
+11/03/2020 07:28:11 PM - LoginPhpTravels - INFO: Sent data on element with locator: password locatorType: name
+11/03/2020 07:28:11 PM - LoginPhpTravels - INFO: Element found with locator: //button[contains(text(),'Login')] and  locatorType: xpath
+11/03/2020 07:28:12 PM - LoginPhpTravels - INFO: Clicked on element with locator: //button[contains(text(),'Login')] locatorType: xpath
+11/03/2020 08:05:54 PM - LoginPhpTravels - INFO: Element found with locator: username and  locatorType: name
+11/03/2020 08:05:54 PM - LoginPhpTravels - INFO: Sent data on element with locator: username locatorType: name
+11/03/2020 08:05:54 PM - LoginPhpTravels - INFO: Element found with locator: password and  locatorType: name
+11/03/2020 08:05:54 PM - LoginPhpTravels - INFO: Sent data on element with locator: password locatorType: name
+11/03/2020 08:05:54 PM - LoginPhpTravels - INFO: Element found with locator: //button[contains(text(),'Login')] and  locatorType: xpath
+11/03/2020 08:05:54 PM - LoginPhpTravels - INFO: Clicked on element with locator: //button[contains(text(),'Login')] locatorType: xpath
+11/03/2020 08:06:04 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:06:04 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:06:04 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:07:37 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:07:37 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:07:37 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:07:56 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:07:56 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:07:56 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:08:25 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:08:25 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:08:25 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:10:30 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:10:30 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:10:30 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:10:37 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:10:37 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:10:37 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:10:56 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:10:56 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:10:56 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:11:14 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:11:14 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:11:14 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:12:54 PM - LoginPhpTravels - INFO: Element found with locator: username and  locatorType: name
+11/03/2020 08:12:54 PM - LoginPhpTravels - INFO: Sent data on element with locator: username locatorType: name
+11/03/2020 08:12:54 PM - LoginPhpTravels - INFO: Element found with locator: password and  locatorType: name
+11/03/2020 08:12:54 PM - LoginPhpTravels - INFO: Sent data on element with locator: password locatorType: name
+11/03/2020 08:12:54 PM - LoginPhpTravels - INFO: Element found with locator: //button[contains(text(),'Login')] and  locatorType: xpath
+11/03/2020 08:12:54 PM - LoginPhpTravels - INFO: Clicked on element with locator: //button[contains(text(),'Login')] locatorType: xpath
+11/03/2020 08:13:15 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:13:15 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:13:15 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:13:51 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:13:51 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:13:51 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:15:08 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:15:08 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:15:08 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:17:59 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:17:59 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:17:59 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:18:16 PM - LoginPhpTravels - INFO: Element found with locator: username and  locatorType: name
+11/03/2020 08:18:16 PM - LoginPhpTravels - INFO: Sent data on element with locator: username locatorType: name
+11/03/2020 08:18:16 PM - LoginPhpTravels - INFO: Element found with locator: password and  locatorType: name
+11/03/2020 08:18:16 PM - LoginPhpTravels - INFO: Sent data on element with locator: password locatorType: name
+11/03/2020 08:18:16 PM - LoginPhpTravels - INFO: Element found with locator: //button[contains(text(),'Login')] and  locatorType: xpath
+11/03/2020 08:18:16 PM - LoginPhpTravels - INFO: Clicked on element with locator: //button[contains(text(),'Login')] locatorType: xpath
+11/03/2020 08:18:54 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:18:54 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 08:18:54 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 08:19:04 PM - LoginPhpTravels - INFO: Element found with locator: username and  locatorType: name
+11/03/2020 08:19:04 PM - LoginPhpTravels - INFO: Sent data on element with locator: username locatorType: name
+11/03/2020 08:19:04 PM - LoginPhpTravels - INFO: Element found with locator: password and  locatorType: name
+11/03/2020 08:19:04 PM - LoginPhpTravels - INFO: Sent data on element with locator: password locatorType: name
+11/03/2020 08:19:04 PM - LoginPhpTravels - INFO: Element found with locator: //button[contains(text(),'Login')] and  locatorType: xpath
+11/03/2020 08:19:05 PM - LoginPhpTravels - INFO: Clicked on element with locator: //button[contains(text(),'Login')] locatorType: xpath
+11/03/2020 09:18:05 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 09:18:05 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 09:18:05 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 09:18:32 PM - LoginPhpTravels - INFO: Element found with locator: username and  locatorType: name
+11/03/2020 09:18:32 PM - LoginPhpTravels - INFO: Sent data on element with locator: username locatorType: name
+11/03/2020 09:18:32 PM - LoginPhpTravels - INFO: Element found with locator: password and  locatorType: name
+11/03/2020 09:18:32 PM - LoginPhpTravels - INFO: Sent data on element with locator: password locatorType: name
+11/03/2020 09:18:32 PM - LoginPhpTravels - INFO: Element found with locator: //button[contains(text(),'Login')] and  locatorType: xpath
+11/03/2020 09:18:32 PM - LoginPhpTravels - INFO: Clicked on element with locator: //button[contains(text(),'Login')] locatorType: xpath
+11/03/2020 09:20:08 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 09:20:08 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 09:20:08 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 09:20:39 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 09:20:39 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 09:20:39 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 09:20:57 PM - LoginPhpTravels - INFO: Element found with locator: username and  locatorType: name
+11/03/2020 09:20:57 PM - LoginPhpTravels - INFO: Sent data on element with locator: username locatorType: name
+11/03/2020 09:20:57 PM - LoginPhpTravels - INFO: Element found with locator: password and  locatorType: name
+11/03/2020 09:20:57 PM - LoginPhpTravels - INFO: Sent data on element with locator: password locatorType: name
+11/03/2020 09:20:58 PM - LoginPhpTravels - INFO: Element found with locator: //button[contains(text(),'Login')] and  locatorType: xpath
+11/03/2020 09:20:58 PM - LoginPhpTravels - INFO: Clicked on element with locator: //button[contains(text(),'Login')] locatorType: xpath
+11/03/2020 09:41:40 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 09:41:40 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 09:41:40 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 09:42:00 PM - LoginPhpTravels - INFO: Element found with locator: username and  locatorType: name
+11/03/2020 09:42:00 PM - LoginPhpTravels - INFO: Sent data on element with locator: username locatorType: name
+11/03/2020 09:42:00 PM - LoginPhpTravels - INFO: Element found with locator: password and  locatorType: name
+11/03/2020 09:42:00 PM - LoginPhpTravels - INFO: Sent data on element with locator: password locatorType: name
+11/03/2020 09:42:00 PM - LoginPhpTravels - INFO: Element found with locator: //button[contains(text(),'Login')] and  locatorType: xpath
+11/03/2020 09:42:00 PM - LoginPhpTravels - INFO: Clicked on element with locator: //button[contains(text(),'Login')] locatorType: xpath
+11/03/2020 09:42:36 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 09:42:36 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 09:42:36 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 09:42:52 PM - LoginPhpTravels - INFO: Element found with locator: username and  locatorType: name
+11/03/2020 09:42:52 PM - LoginPhpTravels - INFO: Sent data on element with locator: username locatorType: name
+11/03/2020 09:42:52 PM - LoginPhpTravels - INFO: Element found with locator: password and  locatorType: name
+11/03/2020 09:42:53 PM - LoginPhpTravels - INFO: Sent data on element with locator: password locatorType: name
+11/03/2020 09:42:53 PM - LoginPhpTravels - INFO: Element found with locator: //button[contains(text(),'Login')] and  locatorType: xpath
+11/03/2020 09:42:53 PM - LoginPhpTravels - INFO: Clicked on element with locator: //button[contains(text(),'Login')] locatorType: xpath
+11/03/2020 09:47:17 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 09:47:17 PM - LoginTest - INFO: test_validLogin started
+11/03/2020 09:47:17 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/03/2020 09:47:44 PM - LoginPhpTravels - INFO: Element found with locator: username and  locatorType: name
+11/03/2020 09:47:44 PM - LoginPhpTravels - INFO: Sent data on element with locator: username locatorType: name
+11/03/2020 09:47:44 PM - LoginPhpTravels - INFO: Element found with locator: password and  locatorType: name
+11/03/2020 09:47:44 PM - LoginPhpTravels - INFO: Sent data on element with locator: password locatorType: name
+11/03/2020 09:47:44 PM - LoginPhpTravels - INFO: Element found with locator: //button[contains(text(),'Login')] and  locatorType: xpath
+11/03/2020 09:47:44 PM - LoginPhpTravels - INFO: Clicked on element with locator: //button[contains(text(),'Login')] locatorType: xpath
