@@ -1,33 +1,22 @@
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 
-
-class ClaroLogin():
-    title = "Inicia sesión"
-    wait_time_out = 5
-    driver = webdriver
-
+class DoxtorLogin:
     def __init__(self, driver):
         self.driver = driver
 
-    def login(self):
-        email_field = WebDriverWait(self.driver, 10).until(
-            ec.visibility_of_element_located((By.XPATH, "//*[contains(@placeholder,'Ingresá tu correo electrónico')]")))
-        email_field.send_keys("facebook")
-        # email_field= driver.find_element_by_xpath("//*[contains(@placeholder,'Ingresá tu correo electrónico')]")
-        pass_field = WebDriverWait(self.driver, 10).until(
-            ec.visibility_of_element_located((By.NAME, "pass")))
-        pass_field.send_keys("1234")
-        inicia_sesion = WebDriverWait(self.driver, 10).until(
-            ec.visibility_of_element_located((By.XPATH, "//button[contains(text(),'INICIA SESIÓN')]")))
-        inicia_sesion.click()
+    _legajo = "//*[@id='username']"
+    _password = "//*[@id='password']"
+    _inicia_sesion = "//button[contains(text(),'INICIA SESIÓN')]"
 
-        error_login = WebDriverWait(self.driver, 10).until(
-            ec.visibility_of_element_located(
-                (By.XPATH, "//label[contains(text( ),'Debe contener entre 6 y 10 caracteres. Al menos un')]")))
-        if error_login:
-            print("mensaje de error login correcto")
-        else:
-            print("Error no aparece el mensaje de error")
+    def login(self):
+        legajo = self.driver.find_element(By.XPATH, self._legajo)
+        legajo.send_keys(Keys.TAB)
+        legajo.send_keys("EXB30522")
+
+        password = self.driver.find_element(By.XPATH, self._password)
+        legajo.send_keys(Keys.TAB)
+        password.send_keys("Viernes43*")
+
+        inicia_sesion= self.driver.find_element(By.XPATH,self._inicia_sesion)
+        inicia_sesion.click()

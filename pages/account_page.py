@@ -4,27 +4,35 @@ class AccountPage:
     def __init__(self, driver):
         self.driver = driver
 
-    _path = "account/"
-    _user_account_xpath = "//h3[contains(text(), 'Hi, Demo User')]"
-    _account_link_xpath = "//*[@class ='dropdown dropdown-login dropdown-tab']"
-    _logout_link_xpath = "//a[contains(text(), 'Logout')]"
-    _newsletter_link_xpath = "//a[contains(text(), 'Newsletter')]"
-    _newsletter_div_id = "newsletter"
+    _user_account = "//input[contains(text(),'')]"
+    #_contrapartes = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/']"
+    _documentos = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/all_documents']"
+    _colaprocesos = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/process_stack']"
+    _reportes ="//*[@class='sc-fzqLLg hjnSEH']//a[@href='/reports']"
+    _ajustes = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/settings']"
 
-    def account_name(self):
-        remember_me= self.driver.find_element(By.XPATH,self._user_account_xpath)
-        return remember_me.text
 
-    def logout_action(self):
-        account_link = self.driver.find_element(By.XPATH,self._account_link_xpath)
-        account_link.click()
-        logout_link = self.driver.find_element(By.XPATH,self._logout_link_xpath)
-        logout_link.click()
+    def account_user(self):
+        user_account= self.driver.find_element(By.XPATH,self._user_account)
+        return user_account.text
 
-    def newsletter_action(self):
-        newsletter_link = self.driver.find_element(By.XPATH,self._newsletter_link_xpath)
-        newsletter_link.click()
+    #def account_contraparte(self):
+    #    contrapartes = self.driver.find_element(By.XPATH,self._contrapartes)
+    #    contrapartes.click()
 
-    def subscribe_class(self):
-        newsletter_div = self.driver.find_element(By.ID,self._newsletter_div_id)
-        return newsletter_div.get_attribute('class')
+    def account_documentos(self):
+        documentos = self.driver.find_element(By.XPATH,self._documentos)
+        documentos.click()
+
+    def account_colaprocesos(self):
+        colaprocesos = self.driver.find_element(By.XPATH,self._colaprocesos)
+        colaprocesos.click()
+
+    def account_reportes(self):
+        reportes = self.driver.find_element(By.XPATH,self._reportes)
+        reportes.click()
+
+    def account_ajustes(self):
+        ajustes = self.driver.find_element(By.XPATH,self._ajustes)
+        ajustes.click()
+
