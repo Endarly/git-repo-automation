@@ -1,22 +1,27 @@
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+from base.base_page import BasePage
+import utilities.custom_logger as cl
+import logging
 
-class DoxtorLogin:
+class DoxtorLogin(BasePage):
+    log = cl.customLogger(logging.DEBUG)
     def __init__(self, driver):
+        super().__init__(driver)
         self.driver = driver
 
-    _legajo = "//*[@id='username']"
+    _email = "//*[@id='username']"
     _password = "//*[@id='password']"
     _inicia_sesion = "//button[contains(text(),'INICIA SESIÓN')]"
 
-    def login(self):
-        legajo = self.driver.find_element(By.XPATH, self._legajo)
-        legajo.send_keys(Keys.TAB)
-        legajo.send_keys("EXB30522")
+    def enterEmail(self, email):
+        self.sendKeys(email, self._email, locatorType="xpath")
 
-        password = self.driver.find_element(By.XPATH, self._password)
-        legajo.send_keys(Keys.TAB)
-        password.send_keys("Viernes43*")
+    def enterPassword(self, password):
+        self.sendKeys(password, self._password, locatorType="xpath")
 
-        inicia_sesion= self.driver.find_element(By.XPATH,self._inicia_sesion)
-        inicia_sesion.click()
+    def clickLoginButton(self):
+        self.elementClick(self._inicia_sesion, locatorType="xpath")
+
+    def login(self, email="", password=""):
+        self.enterEmail(email)
+        self.enterPassword(password)
+        self.clickLoginButton()

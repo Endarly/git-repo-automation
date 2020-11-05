@@ -16,10 +16,6 @@ def testLogin():
     loginTest=LD(driver)
     loginTest.login()
 
-    #accounTest=AP(driver)
-    #accountName="¿Qué necesitas buscar?"
-    #assert (accounTest.account_user()==accountName)
-
     get_url=driver.current_url
     validate_account_url="http://10.92.114.78:3002/"
     assert (get_url == validate_account_url)
