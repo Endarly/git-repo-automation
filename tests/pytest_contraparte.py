@@ -18,7 +18,7 @@ class LoginTest(unittest.TestCase):
     password = "Viernes43*"
     driver = wd("chrome")
     _url = "http://10.92.114.78:3002/"
-    _Titulo_reporte= "Reportes"
+
 
     @pytest.fixture(autouse=True)
     def objectSetup(self):
@@ -41,25 +41,7 @@ class LoginTest(unittest.TestCase):
         self.cp.account_contraparte()
         assert (self.driver.current_url == self._url)
 
-        self.ap.account_documentos()
-        assert (self.driver.current_url == self._url + self.ap._path)
-
-        self.cp.account_contraparte()
-
         self.cp.account_buscar()
-        assert (self.driver.current_url == self._url + self.cp._path)
+        assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
 
-        self.dp.account_documento()
-        assert (self.driver.current_url == self._url + self.dp._path)
-
-        self.dp.account_buscar()
-        assert (self.driver.current_url == self._url + self.dp._path_doc)
-
-        self.cpp.account_colaprocesos()
-        assert (self.driver.current_url == self._url + self.cpp._path)
-
-        self.rp.account_reporte()
-        assert (self.driver.current_url == self._url + self.rp._path)
-
-        self.rp.reporte_titulo()
-        assert (self.rp.reporte_titulo() == self._Titulo_reporte)
+        self.cp.account_
