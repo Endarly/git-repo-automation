@@ -9,6 +9,7 @@ class ContrapartePage:
     _que_buscar = "//*[@id='search']"
     _lupa = "//*[@class='sc-AxiKw fDcFlR']"
     _contraparte_seleccionada = "//*[@name='DEFAULT DOXTOR']"
+    _path = "counterpart/1"
 
     def account_contraparte(self):
         contrapartes = self.driver.find_element(By.XPATH,self._contrapartes)
