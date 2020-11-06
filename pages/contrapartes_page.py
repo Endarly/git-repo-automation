@@ -38,9 +38,6 @@ class ContrapartePage:
     _plazo = "//*[contains(text(),'Plazo')]"
     _botón_cancelar = "//button[contains(text(),'Cancelar')]"
 
-
-
-
     def account_contraparte(self):
         contrapartes = self.driver.find_element(By.XPATH,self._contrapartes)
         contrapartes.click()
