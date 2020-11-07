@@ -18,7 +18,7 @@ class LoginTest(unittest.TestCase):
     password = "Viernes43*"
     driver = wd("chrome")
     _url = "http://10.92.114.78:3002/"
-
+    _contraparte_seleccionada = "DEFAULT DOXTOR"
 
     @pytest.fixture(autouse=True)
     def objectSetup(self):
@@ -42,6 +42,9 @@ class LoginTest(unittest.TestCase):
         assert (self.driver.current_url == self._url)
 
         self.cp.account_buscar()
-        assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
+        assert (self.cp.account_buscar() == self._contraparte_seleccionada)
+
+        #assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
+
 
         #self.cp.account_

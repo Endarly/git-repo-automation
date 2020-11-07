@@ -8,7 +8,7 @@ class ContrapartePage:
     _contrapartes = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/']"
     _que_buscar = "//*[@id='search']"
     _lupa = "//*[@class='sc-AxiKw fDcFlR']"
-    _contraparte_seleccionada = "//*[@name='DEFAULT DOXTOR']"
+    _contrap_selecc = "//div[contains(text(),'DEFAULT DOXTOR')]"
     _path = "counterpart/"
     _path_count ="1"
     _por_vencer = "//*[@class='cards']//*[@class='sc-fznyAO cBMEdc card']//*[@name='DEFAULT DOXTOR']//*[@class='number porvencer']"
@@ -48,5 +48,11 @@ class ContrapartePage:
         quebuscar.send_keys("DEFAULT DOXTOR")
         lupa = self.driver.find_element(By.XPATH,self._lupa)
         lupa.click()
-        contraparte_seleccionada= self.driver.find_element(By.XPATH, self._contraparte_seleccionada)
-        contraparte_seleccionada.click()
+        nombre_contraparte =self.driver.find_element(By.XPATH,self._contrap_selecc)
+        return nombre_contraparte.text
+
+        #contraparte_seleccionada= self.driver.find_element(By.XPATH, self._contraparte_seleccionada)
+        #contraparte_seleccionada.click()
+
+    #def ordenar_por(self):
+     #   ordenar_numero = self.driver.find_element(By.XPATH, self._c)
