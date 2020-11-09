@@ -18,7 +18,7 @@ class LoginTest(unittest.TestCase):
     password = "Viernes43*"
     driver = wd("chrome")
     _url = "http://10.92.114.78:3002/"
-    _contraparte_seleccionada = "DEFAULT DOXTOR"
+    _contraparte = "DEFAULT DOXTOR"
 
     @pytest.fixture(autouse=True)
     def objectSetup(self):
@@ -42,7 +42,26 @@ class LoginTest(unittest.TestCase):
         assert (self.driver.current_url == self._url)
 
         self.cp.account_buscar()
-        assert (self.cp.account_buscar() == self._contraparte_seleccionada)
+        assert (self._contraparte == self.cp.contraparte_seleccionada())
+
+        self.cp.seleccionar_contraparte()
+        assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
+
+        #self.cp.seleccionar_busqueda_avanzada()
+        #assert (self.)
+
+        #self.cp.contraparte_seleccionada()
+        #assert (self._contraparte == self.cp.contraparte_seleccionada())
+
+        #este sirve para comparar pero cuando ya está la contraparte seleccionda
+        #assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
+
+
+        #assert (self.driver.current_url() == self._contraparte)
+
+        #self.cp.contraparte_seleccionada()
+        #assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
+
 
         #assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
 

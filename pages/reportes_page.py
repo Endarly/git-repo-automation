@@ -5,7 +5,7 @@ class ReportePage:
     def __init__(self, driver):
         self.driver = driver
 
-    _reportes ="//*[@class='sc-fzqLLg hjnSEH']//a[@href='/reports']"
+    _reportes ="//div[contains(text(),'REPORTES')]"
     _path = "reports"
     _reporte_titulo = "//div[contains(text(), 'Reportes')]"
 

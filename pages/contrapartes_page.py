@@ -1,11 +1,12 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+import time
 
 class ContrapartePage:
     def __init__(self, driver):
         self.driver = driver
 
-    _contrapartes = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/']"
+    _contrapartes = "//div[contains(text(),'CONTRAPARTE')]"
     _que_buscar = "//*[@id='search']"
     _lupa = "//*[@class='sc-AxiKw fDcFlR']"
     _contrap_selecc = "//div[contains(text(),'DEFAULT DOXTOR')]"
@@ -36,7 +37,10 @@ class ContrapartePage:
     _nota = "//*[@id='8']"
     _resolucion = "//*[@id='9']"
     _plazo = "//*[contains(text(),'Plazo')]"
-    _botón_cancelar = "//button[contains(text(),'Cancelar')]"
+    _boton_aplicar = "//button[contains(text(),'Aplicar')]"
+    _boton_cancelar = "//button[contains(text(),'Cancelar')]"
+    _contraparte_buscar = "DEFAULT DOXTOR"
+    _texto_busqueda_avanzada = "//div[contains(text(),'Búsqueda avanzada')]"
 
     def account_contraparte(self):
         contrapartes = self.driver.find_element(By.XPATH,self._contrapartes)
@@ -45,14 +49,49 @@ class ContrapartePage:
     def account_buscar(self):
         quebuscar = self.driver.find_element(By.XPATH,self._que_buscar)
         quebuscar.send_keys(Keys.TAB)
-        quebuscar.send_keys("DEFAULT DOXTOR")
+        quebuscar.send_keys(self._contraparte_buscar)
         lupa = self.driver.find_element(By.XPATH,self._lupa)
         lupa.click()
-        nombre_contraparte =self.driver.find_element(By.XPATH,self._contrap_selecc)
-        return nombre_contraparte.text
 
-        #contraparte_seleccionada= self.driver.find_element(By.XPATH, self._contraparte_seleccionada)
-        #contraparte_seleccionada.click()
+    def contraparte_seleccionada(self):
+        contraparte= self.driver.find_element(By.XPATH,self._contrap_selecc)
+        return contraparte.text
+
+    def seleccionar_contraparte(self):
+        contraparte= self.driver.find_element(By.XPATH,self._contrap_selecc)
+        contraparte.click()
+        time.sleep(3)
+
+    def seleccionar_busqueda_avanzada(self):
+        busqueda = self.driver.find_element(By.XPATH,self._busqueda_avanzada)
+        busqueda.click()
+        time.sleep(3)
+        buscar_numero =self.driver.find_element(By.XPATH,self._bus_por_num)
+        buscar_numero.click()
+        aplicar = self.driver.find_element(By.XPATH,self._boton_aplicar)
+        aplicar.click()
+        #return te
+
+
+#queda pendiemte la busqueda avanzad
+
+
+    #def ordenar_por(self):
+    #    ordenar_x_numero= self.__format__(By.XPATH,self.)
+
+
+        #seleccionar = self.driver.find_element(By.XPATH, self._contrap_selecc)
+        #seleccionar.send_keys(self._contraparte_buscar)
+
+        #nombre_contraparte =self.driver.find_element(By.XPATH,self._contrap_selecc)
+        #time.sleep(3)
+        #return nombre_contraparte.text
+
+
+    #def contraparte_seleccionada(self):
+    #    contraparte_seleccionada= self.driver.find_element(By.XPATH, self._contrap_selecc)
+    #    contraparte_seleccionada.click()
 
     #def ordenar_por(self):
      #   ordenar_numero = self.driver.find_element(By.XPATH, self._c)
+

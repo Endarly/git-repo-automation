@@ -5,7 +5,7 @@ class ColaProcesosPage:
     def __init__(self, driver):
         self.driver = driver
 
-    _colaprocesos = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/process_stack']"
+    _colaprocesos = "//div[contains(text(),'COLA DE PROCESOS')]"
     _que_buscar = "//*[@id='search']"
     _lupa = "//*[@class='sc-AxiKw fDcFlR']"
     _documento_seleccionado = "//*[@id='81fcb830-147e-11eb-bf36-a59d44d12327']"
