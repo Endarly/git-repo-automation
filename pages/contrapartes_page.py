@@ -81,7 +81,7 @@ class ContrapartePage:
         aplicar.click()
         titulo_busqueda = self.driver.find_element(By.XPATH,self._texto_busqueda_avanzada)
         return titulo_busqueda.text
-        #return te
+
 
 
 #queda pendiemte la busqueda avanzad
