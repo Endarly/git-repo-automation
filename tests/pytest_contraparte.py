@@ -19,6 +19,7 @@ class LoginTest(unittest.TestCase):
     driver = wd("chrome")
     _url = "http://10.92.114.78:3002/"
     _contraparte = "DEFAULT DOXTOR"
+    _busqueda_avanzada = "Búsqueda avanzada:"
 
     @pytest.fixture(autouse=True)
     def objectSetup(self):
@@ -49,7 +50,8 @@ class LoginTest(unittest.TestCase):
         #assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
 
         #self.cp.seleccionar_busqueda_avanzada()
-        #assert (self.)
+        assert (self.cp.seleccionar_busqueda_avanzada() == self._busqueda_avanzada)
+        #assert (self._busqueda_avanzada == self.cp._texto_busqueda_avanzada())
 
         #self.cp.contraparte_seleccionada()
         #assert (self._contraparte == self.cp.contraparte_seleccionada())
