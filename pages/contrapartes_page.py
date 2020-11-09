@@ -58,9 +58,13 @@ class ContrapartePage:
         return contraparte.text
 
     def seleccionar_contraparte(self):
-        contraparte= self.driver.find_element(By.XPATH,self._contrap_selecc)
+        contraparte= self.driver.find_element(By.XPATH,self._contraparte_buscar)
         contraparte.click()
-        time.sleep(3)
+
+    #def seleccionar_contraparte(self):
+    #    contraparte= self.driver.find_element(By.XPATH,self._contrap_selecc)
+    #    contraparte.click()
+    #    time.sleep(3)
 
     def seleccionar_busqueda_avanzada(self):
         busqueda = self.driver.find_element(By.XPATH,self._busqueda_avanzada)

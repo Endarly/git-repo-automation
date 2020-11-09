@@ -42,10 +42,11 @@ class LoginTest(unittest.TestCase):
         assert (self.driver.current_url == self._url)
 
         self.cp.account_buscar()
+        #assert ((self.driver) == self._contraparte)
         assert (self._contraparte == self.cp.contraparte_seleccionada())
 
-        self.cp.seleccionar_contraparte()
-        assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
+        #self.cp.seleccionar_contraparte()
+        #assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
 
         #self.cp.seleccionar_busqueda_avanzada()
         #assert (self.)
