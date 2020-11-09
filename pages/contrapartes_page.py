@@ -52,6 +52,8 @@ class ContrapartePage:
         quebuscar.send_keys(self._contraparte_buscar)
         lupa = self.driver.find_element(By.XPATH,self._lupa)
         lupa.click()
+        contraparte = self.driver.find_element(By.XPATH,self._contrap_selecc)
+        contraparte.click()
 
     def contraparte_seleccionada(self):
         contraparte= self.driver.find_element(By.XPATH,self._contrap_selecc)

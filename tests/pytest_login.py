@@ -47,7 +47,7 @@ class LoginTest(unittest.TestCase):
         self.cp.account_contraparte()
 
         self.cp.account_buscar()
-        assert (self.driver.current_url == self._url + self.cp._path)
+        assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
 
         self.dp.account_documento()
         assert (self.driver.current_url == self._url + self.dp._path)
