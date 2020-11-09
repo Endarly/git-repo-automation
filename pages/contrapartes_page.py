@@ -54,6 +54,9 @@ class ContrapartePage:
         lupa.click()
         contraparte = self.driver.find_element(By.XPATH,self._contrap_selecc)
         contraparte.click()
+        contraparte_seleccionada= self.driver.find_element(By.XPATH,self._contrap_selecc)
+        return contraparte_seleccionada.text
+
 
     def contraparte_seleccionada(self):
         contraparte= self.driver.find_element(By.XPATH,self._contrap_selecc)
