@@ -18,7 +18,8 @@ class LoginTest(unittest.TestCase):
     password = "Viernes43*"
     driver = wd("chrome")
     _url = "http://10.92.114.78:3002/"
-    _Titulo_reporte= "Reportes"
+    _contraparte = "DEFAULT DOXTOR"
+    _busqueda_avanzada = "Búsqueda avanzada:"
 
     @pytest.fixture(autouse=True)
     def objectSetup(self):
@@ -41,25 +42,31 @@ class LoginTest(unittest.TestCase):
         self.cp.account_contraparte()
         assert (self.driver.current_url == self._url)
 
-        self.ap.account_documentos()
-        assert (self.driver.current_url == self._url + self.ap._path)
-
-        self.cp.account_contraparte()
-
         self.cp.account_buscar()
-        assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
+        #assert ((self.driver) == self._contraparte)
+        assert (self._contraparte == self.cp.contraparte_seleccionada())
 
-        self.dp.account_documento()
-        assert (self.driver.current_url == self._url + self.dp._path)
+        #self.cp.seleccionar_contraparte()
+        #assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
 
-        self.dp.account_buscar()
-        assert (self.driver.current_url == self._url + self.dp._path_doc)
+        #self.cp.seleccionar_busqueda_avanzada()
+        assert (self.cp.seleccionar_busqueda_avanzada() == self._busqueda_avanzada)
+        #assert (self._busqueda_avanzada == self.cp._texto_busqueda_avanzada())
 
-        self.cpp.account_colaprocesos()
-        assert (self.driver.current_url == self._url + self.cpp._path)
+        #self.cp.contraparte_seleccionada()
+        #assert (self._contraparte == self.cp.contraparte_seleccionada())
 
-        self.rp.account_reporte()
-        assert (self.driver.current_url == self._url + self.rp._path)
+        #este sirve para comparar pero cuando ya está la contraparte seleccionda
+        #assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
 
-        self.rp.reporte_titulo()
-        assert (self.rp.reporte_titulo() == self._Titulo_reporte)
+
+        #assert (self.driver.current_url() == self._contraparte)
+
+        #self.cp.contraparte_seleccionada()
+        #assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
+
+
+        #assert (self.driver.current_url == self._url + self.cp._path + self.cp._path_count)
+
+
+        #self.cp.account_

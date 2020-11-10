@@ -5,7 +5,7 @@ class DocumentosPage:
     def __init__(self, driver):
         self.driver = driver
 
-    _documentos = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/all_documents']"
+    _documentos = "//div[contains(text(),'DOCUMENTOS')]"
     _que_buscar = "//*[@id='search']"
     _lupa = "//*[@class='sc-AxiKw fDcFlR']"
     _documento_seleccionado = "//*[@id='81fcb830-147e-11eb-bf36-a59d44d12327']"
