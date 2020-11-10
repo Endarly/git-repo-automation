@@ -41,6 +41,7 @@ class ContrapartePage:
     _boton_cancelar = "//button[contains(text(),'Cancelar')]"
     _contraparte_buscar = "DEFAULT DOXTOR"
     _texto_busqueda_avanzada = "//div[contains(text(),'Búsqueda avanzada')]"
+    _cerrar ="(//*[@stroke])[21]"
 
     def account_contraparte(self):
         contrapartes = self.driver.find_element(By.XPATH,self._contrapartes)
@@ -81,6 +82,9 @@ class ContrapartePage:
         aplicar.click()
         titulo_busqueda = self.driver.find_element(By.XPATH,self._texto_busqueda_avanzada)
         return titulo_busqueda.text
+        cerra_bus = self.driver.find_element(By.XPATH, self._cerrar)
+        cerra_bus.click()
+
 
 
 
