@@ -1184,3 +1184,918 @@
 11/09/2020 08:36:03 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
 11/09/2020 08:36:03 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÃ“N')] and  locatorType: xpath
 11/09/2020 08:36:03 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÃ“N')] locatorType: xpath
+11/13/2020 05:51:19 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/13/2020 05:51:19 PM - LoginTest - INFO: test_validLogin started
+11/13/2020 05:51:19 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/13/2020 05:51:19 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/13/2020 05:51:19 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/13/2020 05:51:19 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/13/2020 05:51:19 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/13/2020 05:51:19 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/13/2020 05:51:19 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/13/2020 05:51:36 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/13/2020 05:51:36 PM - LoginTest - INFO: test_validLogin started
+11/13/2020 05:51:36 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/13/2020 05:51:36 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/13/2020 05:51:36 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/13/2020 05:51:36 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/13/2020 05:51:36 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/13/2020 05:51:36 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/13/2020 05:51:36 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/13/2020 05:52:37 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/13/2020 05:52:37 PM - LoginTest - INFO: test_validLogin started
+11/13/2020 05:52:37 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/13/2020 05:52:37 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/13/2020 05:52:37 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/13/2020 05:52:37 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/13/2020 05:52:37 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/13/2020 05:52:37 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/13/2020 05:52:37 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/13/2020 07:54:49 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/13/2020 07:54:49 PM - LoginTest - INFO: test_validLogin started
+11/13/2020 07:54:49 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/13/2020 07:54:49 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/13/2020 07:54:49 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/13/2020 07:54:49 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/13/2020 07:54:49 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/13/2020 07:54:49 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/13/2020 07:54:49 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 03:37:26 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 03:37:26 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 03:37:26 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 03:37:26 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 03:37:26 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 03:37:26 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 03:37:26 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 03:37:26 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 03:37:26 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 03:37:50 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 03:37:50 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 03:37:50 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 03:37:50 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 03:37:50 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 03:37:50 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 03:37:50 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 03:37:50 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 03:37:50 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 03:38:21 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 03:38:21 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 03:38:21 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 03:38:21 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 03:38:21 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 03:38:21 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 03:38:21 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 03:38:21 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 03:38:21 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:04:39 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:04:39 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:04:39 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:04:39 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:04:39 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:04:39 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:04:39 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:04:39 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:04:39 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:06:03 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:06:03 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:06:03 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:06:03 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:06:03 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:06:03 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:06:03 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:06:03 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:06:03 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:08:58 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:08:58 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:08:58 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:08:58 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:08:58 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:08:58 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:08:58 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:08:58 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:08:58 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:09:24 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:09:24 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:09:24 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:09:24 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:09:24 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:09:24 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:09:24 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:09:24 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:09:24 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:11:03 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:11:03 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:11:03 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:11:03 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:11:03 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:11:03 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:11:03 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:11:03 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:11:03 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:12:49 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:12:49 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:12:49 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:12:49 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:12:49 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:12:49 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:12:49 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:12:49 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:12:49 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:13:35 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:13:35 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:13:35 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:13:35 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:13:35 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:13:35 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:13:35 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:13:35 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:13:35 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:14:13 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:14:13 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:14:13 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:14:13 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:14:14 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:14:14 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:14:14 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:14:14 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:14:14 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:24:30 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:24:30 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:24:30 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:24:30 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:24:30 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:24:30 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:24:30 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:24:30 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:24:30 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:24:45 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:24:45 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:24:45 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:24:45 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:24:45 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:24:45 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:24:45 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:24:45 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:24:46 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:26:55 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:26:55 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:26:55 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:26:55 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:26:55 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:26:55 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:26:55 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:26:55 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:26:56 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:28:07 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:28:07 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:28:07 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:28:07 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:28:07 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:28:07 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:28:07 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:28:07 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:28:07 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:28:39 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:28:39 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:28:39 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:28:39 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:28:39 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:28:39 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:28:39 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:28:39 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:28:39 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:30:03 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:30:03 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:30:03 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:30:03 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:30:03 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:30:03 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:30:03 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:30:03 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:30:03 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:32:05 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:32:05 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:32:05 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:32:05 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:32:05 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:32:05 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:32:06 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:32:06 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:32:06 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:32:53 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:32:53 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:32:53 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:32:53 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:32:53 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:32:53 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:32:53 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:32:53 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:32:53 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:36:02 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:36:02 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:36:02 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:36:02 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:36:02 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:36:02 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:36:02 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:36:02 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:36:02 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:36:30 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:36:30 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:36:30 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:36:30 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:36:30 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:36:30 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:36:30 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:36:30 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:36:30 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:39:25 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:39:25 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:39:25 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:39:25 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:39:25 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:39:25 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:39:25 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:39:25 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:39:26 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:41:28 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:41:28 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:41:28 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:41:28 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:41:29 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:41:29 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:41:29 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:41:29 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:41:29 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:42:45 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:42:45 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:42:45 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:42:45 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:42:45 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:42:45 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:42:45 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:42:45 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:42:45 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:44:10 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:44:10 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:44:10 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:44:10 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:44:10 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:44:10 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:44:10 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:44:10 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:44:10 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:44:52 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:44:52 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:44:52 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:44:52 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:44:52 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:44:52 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:44:52 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:44:52 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:44:52 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:46:01 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:46:01 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:46:01 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:46:01 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:46:01 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:46:01 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:46:01 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:46:01 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:46:01 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:51:39 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:51:39 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:51:39 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:51:39 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:51:40 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:51:40 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:51:40 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:51:40 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:51:40 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:53:05 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:53:05 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:53:05 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:53:05 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:53:06 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:53:06 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:53:06 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:53:06 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:53:06 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:54:17 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:54:17 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:54:17 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:54:17 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:54:17 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:54:17 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:54:18 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:54:18 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:54:18 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:58:23 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:58:23 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:58:23 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:58:24 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:58:24 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:58:24 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:58:24 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:58:24 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:58:24 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:58:43 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:58:43 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:58:43 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:58:43 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:58:43 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:58:43 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:58:43 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:58:43 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:58:43 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 04:59:23 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:59:23 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 04:59:23 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 04:59:23 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 04:59:23 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 04:59:23 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 04:59:23 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 04:59:23 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 04:59:23 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:14:46 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:14:46 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:14:46 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:14:46 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:14:46 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:14:46 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:14:46 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:14:46 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:14:46 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:15:39 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:15:39 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:15:39 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:15:39 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:15:40 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:15:40 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:15:40 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:15:40 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:15:40 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:17:27 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:17:27 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:17:27 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:17:27 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:17:27 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:17:27 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:17:27 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:17:27 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:17:27 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:19:38 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:19:38 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:19:38 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:19:38 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:19:38 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:19:38 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:19:38 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:19:38 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:19:38 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:23:57 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:23:57 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:23:57 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:23:57 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:23:57 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:23:57 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:23:57 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:23:57 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:23:57 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:24:35 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:24:35 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:24:35 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:24:35 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:24:35 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:24:35 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:24:35 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:24:35 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:24:36 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:24:55 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:24:55 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:24:55 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:24:55 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:24:55 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:24:55 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:24:55 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:24:55 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:24:55 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:25:30 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:25:30 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:25:30 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:25:30 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:25:30 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:25:30 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:25:30 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:25:30 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:25:30 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:27:21 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:27:21 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:27:21 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:27:21 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:27:21 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:27:21 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:27:21 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:27:21 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:27:21 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:29:46 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:29:46 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:29:46 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:29:46 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:29:46 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:29:46 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:29:46 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:29:46 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:29:46 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:30:45 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:30:45 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:30:45 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:30:45 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:30:45 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:30:45 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:30:46 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:30:46 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:30:46 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:31:22 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:31:22 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:31:22 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:31:22 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:31:22 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:31:22 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:31:22 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:31:22 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:31:22 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:35:42 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:35:42 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:35:42 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:35:58 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:35:58 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:35:58 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:38:35 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:38:35 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:38:35 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:40:02 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:40:02 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:40:02 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:41:23 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:41:23 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:41:23 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:42:29 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:42:29 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:42:29 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:42:29 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:42:29 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:42:29 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:42:29 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:42:29 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:42:29 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 05:55:31 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:55:31 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 05:55:31 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 05:55:31 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 05:55:31 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 05:55:31 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 05:55:31 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 05:55:31 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 05:55:31 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 06:07:34 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 06:07:34 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 06:07:34 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 06:07:34 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 06:07:34 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 06:07:34 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 06:07:34 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 06:07:34 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 06:07:34 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 06:20:43 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 06:20:43 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 06:20:43 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 06:20:43 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 06:20:43 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 06:20:43 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 06:20:44 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 06:20:44 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 06:20:44 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/17/2020 06:30:28 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 06:30:28 PM - LoginTest - INFO: test_validLogin started
+11/17/2020 06:30:28 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/17/2020 06:30:28 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/17/2020 06:30:28 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/17/2020 06:30:28 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/17/2020 06:30:28 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/17/2020 06:30:28 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/17/2020 06:30:29 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 03:42:51 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 03:42:51 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 03:42:51 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 03:42:51 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 03:42:52 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 03:42:52 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 03:42:52 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 03:42:52 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 03:42:52 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 03:43:12 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 03:43:12 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 03:43:12 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 03:43:12 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 03:43:12 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 03:43:12 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 03:43:12 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 03:43:12 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 03:43:12 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 03:55:27 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 03:55:27 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 03:55:27 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 03:55:27 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 03:55:27 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 03:55:27 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 03:55:27 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 03:55:27 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 03:55:27 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 03:55:44 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 03:55:44 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 03:55:44 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 03:55:44 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 03:55:44 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 03:55:44 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 03:55:44 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 03:55:44 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 03:55:44 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 04:26:04 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:26:04 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 04:26:04 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:26:04 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 04:26:04 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 04:26:04 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 04:26:04 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 04:26:04 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 04:26:04 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 04:26:05 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 04:26:05 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 04:30:07 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:30:07 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 04:30:07 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:30:07 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 04:30:07 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 04:30:07 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 04:30:07 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 04:30:07 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 04:30:08 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 04:30:08 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 04:30:08 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 04:40:49 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:40:49 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 04:40:49 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:40:49 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 04:40:49 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 04:40:49 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 04:40:50 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 04:40:50 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 04:40:50 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 04:40:50 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 04:40:50 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 04:40:50 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 04:40:50 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 04:40:50 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 04:40:50 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 04:40:50 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 04:40:50 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 04:40:50 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 04:40:51 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 04:40:51 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 04:40:51 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 04:45:48 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:45:48 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 04:45:48 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:45:48 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 04:45:48 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 04:45:48 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 04:45:48 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 04:45:48 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 04:45:48 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 04:45:49 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 04:45:49 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 04:45:49 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 04:45:49 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 04:45:49 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 04:45:49 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 04:45:49 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 04:45:49 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 04:45:49 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 04:45:49 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 04:45:49 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 04:45:50 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 04:46:28 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:46:28 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 04:46:28 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:46:28 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 04:46:28 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 04:46:28 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 04:46:28 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 04:46:28 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 04:46:28 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 04:46:28 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 04:46:28 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 04:46:28 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 04:46:28 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 04:46:28 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 04:46:28 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 04:46:28 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 04:46:28 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 04:46:28 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 04:46:29 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 04:46:29 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 04:46:29 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 04:54:43 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:54:43 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 04:54:43 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:54:43 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 04:54:43 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 04:54:43 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 04:54:43 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 04:54:43 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 04:54:43 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 04:54:44 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 04:54:44 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 04:54:44 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 04:54:44 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 04:54:44 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 04:54:44 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 04:54:44 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 04:54:44 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 04:54:44 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 04:54:44 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 04:54:45 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 04:54:45 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 04:58:11 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:58:11 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 04:58:11 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:58:11 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 04:58:11 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 04:58:11 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 04:58:12 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 04:58:12 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 04:58:12 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 04:58:12 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 04:58:12 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 04:58:12 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 04:58:12 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 04:58:12 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 04:58:12 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 04:58:12 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 04:58:13 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 04:58:13 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 04:58:13 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 04:58:13 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 04:58:13 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 04:58:47 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:58:47 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 04:58:47 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 04:58:47 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 04:58:47 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 04:58:47 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 04:58:47 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 04:58:47 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 04:58:47 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 04:58:47 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 04:58:47 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 04:58:47 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 04:58:47 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 04:58:48 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 04:58:48 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 04:58:48 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 04:58:48 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 04:58:48 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 04:58:48 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 04:58:48 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 04:58:48 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:01:53 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:01:53 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 05:01:53 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:01:53 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 05:01:53 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 05:01:53 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 05:01:53 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 05:01:53 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 05:01:53 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 05:01:53 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 05:01:54 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 05:01:54 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 05:01:54 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 05:01:54 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 05:01:54 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 05:01:54 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 05:01:54 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 05:01:54 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:01:54 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:01:54 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:01:54 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:02:07 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:02:07 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 05:02:07 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:02:07 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 05:02:07 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 05:02:07 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 05:02:07 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 05:02:07 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 05:02:07 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 05:02:08 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 05:02:08 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 05:02:08 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 05:02:08 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 05:02:08 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 05:02:08 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 05:02:08 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 05:02:08 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 05:02:08 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:02:08 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:02:09 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:02:09 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:04:56 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:04:56 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 05:04:56 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:04:56 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 05:04:56 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 05:04:56 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 05:04:56 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 05:04:56 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 05:04:56 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 05:04:57 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 05:04:57 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 05:04:57 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 05:04:57 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 05:04:57 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 05:04:57 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 05:04:57 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 05:04:57 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 05:04:57 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:04:57 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:04:57 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:04:58 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:09:33 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:09:33 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 05:09:33 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:09:33 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 05:09:33 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 05:09:33 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 05:09:33 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 05:09:33 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 05:09:33 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 05:09:33 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 05:09:33 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 05:09:33 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 05:09:33 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 05:09:34 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 05:09:34 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 05:09:34 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 05:09:34 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 05:09:34 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:09:34 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:09:34 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:09:34 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:14:51 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:14:51 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 05:14:51 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:14:51 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 05:14:52 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 05:14:52 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 05:14:52 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 05:14:52 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 05:14:52 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 05:14:52 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 05:14:52 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 05:14:52 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 05:14:52 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 05:14:52 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 05:14:52 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 05:14:52 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 05:14:52 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 05:14:53 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:14:53 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:14:53 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:14:53 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:16:28 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:16:28 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 05:16:28 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:16:28 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 05:16:28 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 05:16:28 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 05:16:28 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 05:16:28 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 05:16:28 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 05:16:29 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 05:16:29 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 05:16:29 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 05:16:29 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 05:16:29 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 05:16:29 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 05:16:29 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 05:16:29 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 05:16:29 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:16:29 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:23:15 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:23:15 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 05:23:15 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:23:15 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 05:23:15 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 05:23:15 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 05:23:15 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 05:23:15 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 05:23:15 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 05:23:15 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 05:23:15 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 05:23:15 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 05:23:16 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 05:23:16 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 05:23:16 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 05:23:16 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 05:23:16 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 05:23:16 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:23:16 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:23:17 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:23:17 PM - ContrapartePageModificada - INFO: Getting text on element :: 
+11/18/2020 05:23:17 PM - ContrapartePageModificada - INFO: The text is :: 'DEFAULT DOXTOR'
+11/18/2020 05:25:42 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:25:42 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 05:25:42 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:25:42 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 05:25:42 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 05:25:43 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 05:25:43 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 05:25:43 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 05:25:43 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 05:25:43 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 05:25:43 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 05:25:43 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 05:25:43 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 05:25:43 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 05:25:43 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 05:25:43 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 05:25:43 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 05:25:43 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:25:44 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:25:44 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:25:44 PM - ContrapartePageModificada - INFO: Getting text on element :: 
+11/18/2020 05:25:44 PM - ContrapartePageModificada - INFO: The text is :: 'DEFAULT DOXTOR'
+11/18/2020 05:27:44 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:27:44 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 05:27:44 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:27:44 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 05:27:44 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 05:27:44 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 05:27:44 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 05:27:44 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 05:27:44 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 05:27:44 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 05:27:44 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 05:27:45 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 05:27:45 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 05:27:45 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 05:27:45 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 05:27:45 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 05:27:45 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 05:27:45 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:27:45 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:27:45 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:27:45 PM - ContrapartePageModificada - INFO: Getting text on element :: 
+11/18/2020 05:27:45 PM - ContrapartePageModificada - INFO: The text is :: 'DEFAULT DOXTOR'
+11/18/2020 05:28:40 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:28:40 PM - LoginTest - INFO: test_validLogin started
+11/18/2020 05:28:40 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/18/2020 05:28:40 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/18/2020 05:28:40 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/18/2020 05:28:40 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/18/2020 05:28:40 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/18/2020 05:28:40 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/18/2020 05:28:40 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/18/2020 05:28:41 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'CONTRAPARTE')] and  locatorType: xpath
+11/18/2020 05:28:41 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'CONTRAPARTE')] locatorType: xpath
+11/18/2020 05:28:41 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@id='search'] and  locatorType: xpath
+11/18/2020 05:28:41 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@id='search'] locatorType: xpath
+11/18/2020 05:28:41 PM - ContrapartePageModificada - INFO: Element not found with locator: DEFAULT DOXTOR and  locatorType: xpath
+11/18/2020 05:28:41 PM - ContrapartePageModificada - INFO: Cannot click on the element with locator: DEFAULT DOXTOR locatorType: xpath
+11/18/2020 05:28:41 PM - ContrapartePageModificada - INFO: Element found with locator: //*[@class='sc-AxiKw fDcFlR'] and  locatorType: xpath
+11/18/2020 05:28:41 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //*[@class='sc-AxiKw fDcFlR'] locatorType: xpath
+11/18/2020 05:28:41 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:28:41 PM - ContrapartePageModificada - INFO: Clicked on element with locator: //div[contains(text(),'DEFAULT DOXTOR')] locatorType: xpath
+11/18/2020 05:28:41 PM - ContrapartePageModificada - INFO: Element found with locator: //div[contains(text(),'DEFAULT DOXTOR')] and  locatorType: xpath
+11/18/2020 05:28:42 PM - ContrapartePageModificada - INFO: Getting text on element :: 
+11/18/2020 05:28:42 PM - ContrapartePageModificada - INFO: The text is :: 'DEFAULT DOXTOR'
+11/20/2020 02:03:29 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/20/2020 02:03:29 PM - LoginTest - INFO: test_validLogin started
+11/20/2020 02:03:29 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/20/2020 02:03:29 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/20/2020 02:03:29 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/20/2020 02:03:29 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/20/2020 02:03:29 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/20/2020 02:03:29 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/20/2020 02:03:29 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath
+11/20/2020 02:03:56 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/20/2020 02:03:56 PM - LoginTest - INFO: test_validLogin started
+11/20/2020 02:03:56 PM - LoginTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+11/20/2020 02:03:56 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='username'] and  locatorType: xpath
+11/20/2020 02:03:56 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='username'] locatorType: xpath
+11/20/2020 02:03:56 PM - DoxtorLogin - INFO: Element found with locator: //*[@id='password'] and  locatorType: xpath
+11/20/2020 02:03:56 PM - DoxtorLogin - INFO: Sent data on element with locator: //*[@id='password'] locatorType: xpath
+11/20/2020 02:03:56 PM - DoxtorLogin - INFO: Element found with locator: //button[contains(text(),'INICIA SESIÓN')] and  locatorType: xpath
+11/20/2020 02:03:56 PM - DoxtorLogin - INFO: Clicked on element with locator: //button[contains(text(),'INICIA SESIÓN')] locatorType: xpath

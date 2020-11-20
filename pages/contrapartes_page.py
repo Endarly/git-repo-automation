@@ -15,6 +15,7 @@ class ContrapartePage:
     _por_vencer = "//*[@class='cards']//*[@class='sc-fznyAO cBMEdc card']//*[@name='DEFAULT DOXTOR']//*[@class='number porvencer']"
     _vencidos = "//*[@class='cards']//*[@class='sc-fznyAO cBMEdc card']//*[@name='DEFAULT DOXTOR']//*[@class='number vencidos']"
     _pais = "//*[@class='cards']//*[@class='sc-fznyAO cBMEdc card']//*[@name='DEFAULT DOXTOR']//*[@class='pais']"
+    _busq_pais = "//*[@class='select__single-value css-1uccc91-singleValue']"
     _num_doc = "//*[@class='cards']//*[@class='sc-fznyAO cBMEdc card']//*[@name='DEFAULT DOXTOR']//*[@class='contracts'='1']"
     _ver_mas = "//*[@class='sc-fzplWN fTXodw']/child::div[1]"
     _todos_titulo ="//div[contains(text(),'Todos')]"
@@ -40,7 +41,8 @@ class ContrapartePage:
     _boton_aplicar = "//button[contains(text(),'Aplicar')]"
     _boton_cancelar = "//button[contains(text(),'Cancelar')]"
     _contraparte_buscar = "DEFAULT DOXTOR"
-    _texto_busqueda_avanzada = "//div[contains(text(),'Búsqueda avanzada')]"
+    _texto_busqueda_avanzada_num = "//div[contains(text(),'Filtrar sólo por número de documento')]"
+    _texto_busqueda_conatel = "//div[contains(text(),'Filtrar sólo por Conatel:')]"
     _cerrar ="(//*[@stroke])[21]"
 
     def account_contraparte(self):
@@ -61,7 +63,7 @@ class ContrapartePage:
 
     def contraparte_seleccionada(self):
         contraparte= self.driver.find_element(By.XPATH,self._contrap_selecc)
-        time.sleep(5)
+        #time.sleep(5)
         return contraparte.text
 
     #def seleccionar_contraparte(self):
@@ -73,17 +75,33 @@ class ContrapartePage:
     #    contraparte.click()
     #    time.sleep(3)
 
-    def seleccionar_busqueda_avanzada(self):
+    def seleccionar_busqueda_avanzada_num(self):
         busqueda = self.driver.find_element(By.XPATH,self._busqueda_avanzada)
         busqueda.click()
         buscar_numero =self.driver.find_element(By.XPATH,self._bus_por_num)
         buscar_numero.click()
         aplicar = self.driver.find_element(By.XPATH,self._boton_aplicar)
         aplicar.click()
-        titulo_busqueda = self.driver.find_element(By.XPATH,self._texto_busqueda_avanzada)
+        titulo_busqueda = self.driver.find_element(By.XPATH,self._texto_busqueda_avanzada_num)
         return titulo_busqueda.text
+
+    def cerrar_busqueda_avanzada(self):
         cerra_bus = self.driver.find_element(By.XPATH, self._cerrar)
         cerra_bus.click()
+
+    def seleccionar_busqueda_conatel(self):
+        busqueda = self.driver.find_element(By.XPATH,self._busqueda_avanzada)
+        busqueda.click()
+        buscar_numero =self.driver.find_element(By.XPATH,self._bus_conatel)
+        buscar_numero.click()
+        aplicar = self.driver.find_element(By.XPATH,self._boton_aplicar)
+        aplicar.click()
+        titulo_busqueda = self.driver.find_element(By.XPATH,self._texto_busqueda_conatel)
+        return titulo_busqueda.text
+
+    #def seleccionar_busqueda_pais(self):
+
+
 
 
 

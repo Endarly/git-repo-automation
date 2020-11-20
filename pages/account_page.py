@@ -17,9 +17,9 @@ class AccountPage:
         user_account= self.driver.find_element(By.XPATH,self._user_account)
         return user_account.text
 
-    def account_contraparte(self):
-        contrapartes = self.driver.find_element(By.XPATH,self._contrapartes)
-        contrapartes.click()
+    #def account_contraparte(self):
+    #    contrapartes = self.driver.find_element(By.XPATH,self._contrapartes)
+    #    contrapartes.click()
 
     def account_documentos(self):
         documentos = self.driver.find_element(By.XPATH,self._documentos)
