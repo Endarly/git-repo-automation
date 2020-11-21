@@ -48,30 +48,35 @@ class ContrapartePageModificada(BasePage):
     _contraparte_buscar = "DEFAULT DOXTOR"
     _texto_busqueda_avanzada_num = "//div[contains(text(),'Filtrar sólo por número de documento')]"
     _texto_busqueda_conatel = "//div[contains(text(),'Filtrar sólo por Conatel:')]"
-    _cerrar ="(//*[@stroke])[21]"
+    _cerrar ="(//*[@stroke])[22]"
+
 
     def account_contraparte_modificada(self):
         self.elementClick(self._contrapartes, locatorType="xpath")
+        return self.driver.current_url
 
     def account_buscarm(self):
         self.elementClick(self._que_buscar, locatorType="xpath")
         self.elementClick(self._contraparte_buscar, locatorType="xpath")
         self.elementClick(self._lupa, locatorType="xpath")
         self.elementClick(self._contrap_selecc, locatorType="xpath")
-        self.getText(self._contrap_selecc, locatorType="xpath")
-        return self._contrap_selecc.text
+        #self.text_to_validate = self.getText(self._contrap_selecc)
+        #time.sleep(5)
+        #self.getText(self._contrap_selecc, locatorType="xpath")
+        return self.driver.current_url
 
     def contraparte_seleccionadam(self):
         self.contraparte = self.getText(self._contrap_selecc, locatorType="xpath")
         return self.contraparte.text
 
-
     def seleccionar_busqueda_avanzada_numm(self):
         self.elementClick(self._busqueda_avanzada, locatorType="xpath")
         self.elementClick(self._bus_por_num, locatorType="xpath")
         self.elementClick(self._boton_aplicar, locatorType="xpath")
-        self.getText(self._texto_busqueda_avanzada_num, locatorType="xpath")
-        return self.driver.text
+        #text_to_validate = self.getText(self._texto_busqueda_avanzada_num, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_busqueda_avanzada_num)
+        return titulo_busqueda.text
+
 
     def cerrar_busqueda_avanzadam(self):
         self.elementClick(self._cerrar, locatorType="xpath")
@@ -80,6 +85,6 @@ class ContrapartePageModificada(BasePage):
         self.elementClick(self._busqueda_avanzada, locatorType="xpath")
         self.elementClick(self._bus_conatel, locatorType="xpath")
         self.elementClick(self._boton_aplicar, locatorType="xpath")
-        self.getText(self._texto_busqueda_conatel, locatorType="xpath")
-        return self.driver.text
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_busqueda_conatel)
+        return titulo_busqueda.text
 

@@ -1,10 +1,15 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from base.base_page import BasePage
+import utilities.custom_logger as cl
+import logging
 import time
 
-class ContrapartePage:
+class ContrapartePage(BasePage):
+    log = cl.customLogger(logging.DEBUG)
+
     def __init__(self, driver):
-        self.driver = driver
+        super().__init__(driver)
 
     _contrapartes = "//div[contains(text(),'CONTRAPARTE')]"
     _que_buscar = "//*[@id='search']"
@@ -43,88 +48,47 @@ class ContrapartePage:
     _contraparte_buscar = "DEFAULT DOXTOR"
     _texto_busqueda_avanzada_num = "//div[contains(text(),'Filtrar sólo por número de documento')]"
     _texto_busqueda_conatel = "//div[contains(text(),'Filtrar sólo por Conatel:')]"
-    _cerrar ="(//*[@stroke])[21]"
+    _cerrar ="(//*[@stroke])[22]"
+    _click_doc = "//*[@class='container']"
 
     def account_contraparte(self):
-        contrapartes = self.driver.find_element(By.XPATH,self._contrapartes)
-        contrapartes.click()
+        self.elementClick(self._contrapartes, locatorType="xpath")
+        return self.driver.current_url
 
     def account_buscar(self):
-        quebuscar = self.driver.find_element(By.XPATH,self._que_buscar)
-        quebuscar.send_keys(Keys.TAB)
-        quebuscar.send_keys(self._contraparte_buscar)
-        lupa = self.driver.find_element(By.XPATH,self._lupa)
-        lupa.click()
-        contraparte = self.driver.find_element(By.XPATH,self._contrap_selecc)
-        contraparte.click()
-        contraparte_seleccionada= self.driver.find_element(By.XPATH,self._contrap_selecc)
-        return contraparte_seleccionada.text
+        self.elementClick(self._que_buscar, locatorType="xpath")
+        self.elementClick(self._contraparte_buscar, locatorType="xpath")
+        self.elementClick(self._lupa, locatorType="xpath")
+        self.elementClick(self._contrap_selecc, locatorType="xpath")
+        #self.text_to_validate = self.getText(self._contrap_selecc)
+        #time.sleep(5)
+        #self.getText(self._contrap_selecc, locatorType="xpath")
+        return self.driver.current_url
 
 
     def contraparte_seleccionada(self):
-        contraparte= self.driver.find_element(By.XPATH,self._contrap_selecc)
-        #time.sleep(5)
-        return contraparte.text
-
-    #def seleccionar_contraparte(self):
-    #   contraparte= self.driver.find_element(By.XPATH,self._contraparte_buscar)
-    #    contraparte.click()
-
-    #def seleccionar_contraparte(self):
-    #    contraparte= self.driver.find_element(By.XPATH,self._contrap_selecc)
-    #    contraparte.click()
-    #    time.sleep(3)
+        self.contraparte = self.getText(self._contrap_selecc, locatorType="xpath")
+        return self.contraparte.text
 
     def seleccionar_busqueda_avanzada_num(self):
-        busqueda = self.driver.find_element(By.XPATH,self._busqueda_avanzada)
-        busqueda.click()
-        buscar_numero =self.driver.find_element(By.XPATH,self._bus_por_num)
-        buscar_numero.click()
-        aplicar = self.driver.find_element(By.XPATH,self._boton_aplicar)
-        aplicar.click()
-        titulo_busqueda = self.driver.find_element(By.XPATH,self._texto_busqueda_avanzada_num)
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._bus_por_num, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        #text_to_validate = self.getText(self._texto_busqueda_avanzada_num, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_busqueda_avanzada_num)
         return titulo_busqueda.text
 
     def cerrar_busqueda_avanzada(self):
-        cerra_bus = self.driver.find_element(By.XPATH, self._cerrar)
-        cerra_bus.click()
+        self.elementClick(self._cerrar, locatorType="xpath")
 
     def seleccionar_busqueda_conatel(self):
-        busqueda = self.driver.find_element(By.XPATH,self._busqueda_avanzada)
-        busqueda.click()
-        buscar_numero =self.driver.find_element(By.XPATH,self._bus_conatel)
-        buscar_numero.click()
-        aplicar = self.driver.find_element(By.XPATH,self._boton_aplicar)
-        aplicar.click()
-        titulo_busqueda = self.driver.find_element(By.XPATH,self._texto_busqueda_conatel)
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._bus_conatel, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_busqueda_conatel)
         return titulo_busqueda.text
 
-    #def seleccionar_busqueda_pais(self):
-
-
-
-
-
-
-#queda pendiemte la busqueda avanzad
-
-
-    #def ordenar_por(self):
-    #    ordenar_x_numero= self.__format__(By.XPATH,self.)
-
-
-        #seleccionar = self.driver.find_element(By.XPATH, self._contrap_selecc)
-        #seleccionar.send_keys(self._contraparte_buscar)
-
-        #nombre_contraparte =self.driver.find_element(By.XPATH,self._contrap_selecc)
-        #time.sleep(3)
-        #return nombre_contraparte.text
-
-
-    #def contraparte_seleccionada(self):
-    #    contraparte_seleccionada= self.driver.find_element(By.XPATH, self._contrap_selecc)
-    #    contraparte_seleccionada.click()
-
-    #def ordenar_por(self):
-     #   ordenar_numero = self.driver.find_element(By.XPATH, self._c)
-
+    def click_documento(self):
+        #self.elementClick(self._click_doc, locatorType="xpath")
+        documentos_asociados = self.driver.find_element(By.XPATH, self._click_doc)
+        return documentos_asociados.text

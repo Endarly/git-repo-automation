@@ -1,7 +1,7 @@
 from pages.login_page import DoxtorLogin as LD
 from pages.account_page import AccountPage as AP
 from pages.contrapartes_page import ContrapartePage as CP
-from pages.contrapartes_pages_copia import ContrapartePageModificada as CPM
+#from pages.contrapartes_pages_copia import ContrapartePageModificada as CPM
 #from pages.documentos_page import DocumentosPage as DP
 from pages.cola_procesos_page import ColaProcesosPage as CPP
 from pages.reportes_page import ReportePage as RP
@@ -16,12 +16,15 @@ import time
 class LoginTest(unittest.TestCase):
     log = cl.customLogger(logging.DEBUG)
     email = "EXB30522"
-    password = "Viernes43*"
+    password = "Viernes44*"
     driver = wd("chrome")
     _url = "http://10.92.114.78:3002/"
     _contraparte = "DEFAULT DOXTOR"
     _busqueda_avanzada_num = "Filtrar sólo por número de documento:"
     _busqueda_conatel = "Filtrar sólo por Conatel:"
+    _counterpart = "counterpart"
+    _id_counterpart = "/1"
+    _documentos_asociados ="Este documento no tiene documentos asociados"
 
     @pytest.fixture(autouse=True)
     def objectSetup(self):
@@ -32,7 +35,7 @@ class LoginTest(unittest.TestCase):
         #self.dp = DP(self.driver)
         self.cpp = CPP(self.driver)
         self.rp = RP(self.driver)
-        self.cpm = CPM(self.driver)
+        #self.cpm = CPM(self.driver)
 
     #@pytest.mark.run(order=1)
     def test_validLogin(self):
@@ -41,23 +44,11 @@ class LoginTest(unittest.TestCase):
         self.log.info("*#" * 20)
         self.ld.login(self.email, self.password)
         assert (self.driver.current_url == self._url)
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url+self._counterpart+self._id_counterpart)
+        assert (self.cp.seleccionar_busqueda_avanzada_num() == self._busqueda_avanzada_num)
+        self.cp.cerrar_busqueda_avanzada()
+        assert (self.cp.click_documento() == self._documentos_asociados)
+        #assert (self.cp.seleccionar_busqueda_conatel() == self._busqueda_conatel)
 
-        #self.cp.account_contraparte()
-        #assert (self.driver.current_url == self._url)
-
-        self.cpm.account_contraparte_modificada()
-        assert (self.driver.current_url == self._url)
-
-        self.cpm.account_buscarm()
-        assert (self._contraparte == self.cpm.contraparte_seleccionadam())
-
-        assert (self.cpm.seleccionar_busqueda_avanzada_numm() == self._busqueda_avanzada_num)
-
-        self.cpm.cerrar_busqueda_avanzadam()
-
-        self.cpm.account_contraparte_modificada()
-        assert (self._contraparte == self.cpm.contraparte_seleccionadam())
-
-
-        assert (self.cp.seleccionar_busqueda_conatelm() == self._busqueda_conatel)
 
