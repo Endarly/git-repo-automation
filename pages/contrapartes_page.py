@@ -35,7 +35,7 @@ class ContrapartePage(BasePage):
     _tipo_documento = "//*[contains(text(),'Tipo de Documento')]"
     _contrato = "//*[@id='1']"
     _adenda = "//*[@id='2']"
-    _carta_oferta = "//*[@id=3']"
+    _carta_oferta = "//*[@id='3']"
     _convenio = "//*[@id='4']"
     _poder = "//*[@id='5']"
     _escritura = "//*[@id='6']"
@@ -50,6 +50,19 @@ class ContrapartePage(BasePage):
     _texto_busqueda_conatel = "//div[contains(text(),'Filtrar sólo por Conatel:')]"
     _cerrar ="(//*[@stroke])[22]"
     _click_doc = "//*[@class='container']"
+    _seleccione_pais ="//*[contains(text(),'Seleccione país')]"
+    _pais_argentina ="//*[@id='root']/div/div[3]/div/div[1]/div/div/section[3]/div/div/div[2]"
+    _texto_bus_arg = "//*[@class='filterList']//div[contains(text(),'Argentina')]"
+    _texto_contrato = "//*[@class='filterList']//div[contains(text(),'Contrato')]"
+    _texto_adenda = "//*[@class='filterList']//div[contains(text(),'Adenda')]"
+    _texto_carta_oferta = "//*[@class='filterList']//div[contains(text(),'Carta Oferta')]"
+    _texto_convenio = "//*[@class='filterList']//div[contains(text(),'Convenio')]"
+    _texto_poder = "//*[@class='filterList']//div[contains(text(),'Poder')]"
+    _texto_escritura = "//*[@class='filterList']//div[contains(text(),'Escritura')]"
+    _texto_regulacion = "//*[@class='filterList']//div[contains(text(),'Regulación')]"
+    _texto_nota = "//*[@class='filterList']//div[contains(text(),'Nota')]"
+    _texto_resolucion = "//*[@class='filterList']//div[contains(text(),'Resolución')]"
+    _texto_plazo = "//*[@class='filterList']//div[contains(text(),'Fecha desde')]"
 
     def account_contraparte(self):
         self.elementClick(self._contrapartes, locatorType="xpath")
@@ -65,7 +78,6 @@ class ContrapartePage(BasePage):
         #self.getText(self._contrap_selecc, locatorType="xpath")
         return self.driver.current_url
 
-
     def contraparte_seleccionada(self):
         self.contraparte = self.getText(self._contrap_selecc, locatorType="xpath")
         return self.contraparte.text
@@ -73,9 +85,11 @@ class ContrapartePage(BasePage):
     def seleccionar_busqueda_avanzada_num(self):
         self.elementClick(self._busqueda_avanzada, locatorType="xpath")
         self.elementClick(self._bus_por_num, locatorType="xpath")
+        # self.elementClick(self._cerrar, locatorType="xpath")
         self.elementClick(self._boton_aplicar, locatorType="xpath")
         #text_to_validate = self.getText(self._texto_busqueda_avanzada_num, locatorType="xpath")
         titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_busqueda_avanzada_num)
+        #self.elementClick(self._cerrar, locatorType="xpath")
         return titulo_busqueda.text
 
     def cerrar_busqueda_avanzada(self):
@@ -92,3 +106,94 @@ class ContrapartePage(BasePage):
         #self.elementClick(self._click_doc, locatorType="xpath")
         documentos_asociados = self.driver.find_element(By.XPATH, self._click_doc)
         return documentos_asociados.text
+
+    def seleccionar_pais(self):
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._seleccione_pais, locatorType="xpath")
+        time.sleep(18)
+        self.elementClick(self._pais_argentina, locatorType="xpath")
+        time.sleep(18)
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        time.sleep(6)
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_bus_arg)
+        return titulo_busqueda.text
+
+    def tipo_documento_contrato(self):
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._tipo_documento, locatorType="xpath")
+        self.elementClick(self._contrato, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_contrato)
+        return titulo_busqueda.text
+
+    def tipo_documento_adenda(self):
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._tipo_documento, locatorType="xpath")
+        self.elementClick(self._adenda, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_adenda)
+        return titulo_busqueda.text
+
+    def tipo_documento_carta_oferta(self):
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._tipo_documento, locatorType="xpath")
+        self.elementClick(self._carta_oferta, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_carta_oferta)
+        return titulo_busqueda.text
+
+    def tipo_documento_convenio(self):
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._tipo_documento, locatorType="xpath")
+        self.elementClick(self._convenio, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_convenio)
+        return titulo_busqueda.text
+
+    def tipo_documento_poder(self):
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._tipo_documento, locatorType="xpath")
+        self.elementClick(self._poder, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_poder)
+        return titulo_busqueda.text
+
+    def tipo_documento_escritura(self):
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._tipo_documento, locatorType="xpath")
+        self.elementClick(self._escritura, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_escritura)
+        return titulo_busqueda.text
+
+    def tipo_documento_regulacion(self):
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._tipo_documento, locatorType="xpath")
+        self.elementClick(self._regulacion, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_regulacion)
+        return titulo_busqueda.text
+
+    def tipo_documento_nota(self):
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._tipo_documento, locatorType="xpath")
+        self.elementClick(self._nota, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_nota)
+        return titulo_busqueda.text
+
+    def tipo_documento_resolucion(self):
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._tipo_documento, locatorType="xpath")
+        self.elementClick(self._resolucion, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_resolucion)
+        return titulo_busqueda.text
+
+    def bus_plazo(self):
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._tipo_documento, locatorType="xpath")
+        self.elementClick(self._plazo, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_plazo)
+        return titulo_busqueda.text

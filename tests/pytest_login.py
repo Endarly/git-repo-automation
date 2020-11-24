@@ -15,7 +15,7 @@ import time
 class LoginTest(unittest.TestCase):
     log = cl.customLogger(logging.DEBUG)
     email = "EXB30522"
-    password = "Viernes43*"
+    password = "Viernes44*"
     driver = wd("chrome")
     _url = "http://10.92.114.78:3002/"
     _Titulo_reporte= "Reportes"

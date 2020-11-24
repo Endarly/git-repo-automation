@@ -25,6 +25,17 @@ class LoginTest(unittest.TestCase):
     _counterpart = "counterpart"
     _id_counterpart = "/1"
     _documentos_asociados ="Este documento no tiene documentos asociados"
+    _bus_pais_arg = "Argentina"
+    _bus_tipo_contrato = "Contrato"
+    _bus_tipo_adenda = "Adenda"
+    _bus_tipo_carta_oferta = "Carta Oferta"
+    _bus_tipo_convenio = "Convenio"
+    _bus_tipo_poder = "Poder"
+    _bus_tipo_escritura = "Escritura"
+    _bus_tipo_Regulacion = "Regulación"
+    _bus_tipo_Nota = "Nota"
+    _bus_tipo_Resolucion = "Resolución"
+    _plazo= "Fecha desde:"
 
     @pytest.fixture(autouse=True)
     def objectSetup(self):
@@ -47,8 +58,51 @@ class LoginTest(unittest.TestCase):
         assert (self.cp.account_contraparte() == self._url)
         assert (self.cp.account_buscar() == self._url+self._counterpart+self._id_counterpart)
         assert (self.cp.seleccionar_busqueda_avanzada_num() == self._busqueda_avanzada_num)
-        self.cp.cerrar_busqueda_avanzada()
-        assert (self.cp.click_documento() == self._documentos_asociados)
-        #assert (self.cp.seleccionar_busqueda_conatel() == self._busqueda_conatel)
 
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        assert (self.cp.seleccionar_busqueda_conatel() == self._busqueda_conatel)
 
+        #assert (self.cp.account_contraparte() == self._url)
+        #assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        #assert (self.cp.seleccionar_pais() == self._bus_pais_arg)
+
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        assert (self.cp.tipo_documento_contrato() == self._bus_tipo_contrato)
+
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        assert (self.cp.tipo_documento_adenda() == self._bus_tipo_adenda)
+
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        assert (self.cp.tipo_documento_carta_oferta() == self._bus_tipo_carta_oferta)
+
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        assert (self.cp.tipo_documento_convenio() == self._bus_tipo_convenio)
+
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        assert (self.cp.tipo_documento_poder() == self._bus_tipo_poder)
+
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        assert (self.cp.tipo_documento_escritura() == self._bus_tipo_escritura)
+
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        assert (self.cp.tipo_documento_regulacion() == self._bus_tipo_Regulacion)
+
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        assert (self.cp.tipo_documento_nota() == self._bus_tipo_Nota)
+
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        assert (self.cp.tipo_documento_resolucion() == self._bus_tipo_Resolucion)
+
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        assert (self.cp.bus_plazo() == self._plazo)

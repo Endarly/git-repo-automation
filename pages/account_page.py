@@ -5,12 +5,15 @@ class AccountPage:
         self.driver = driver
 
     _user_account = "//input[contains(text(),'')]"
-    _contrapartes = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/']"
-    _documentos = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/all_documents']"
-    _colaprocesos = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/process_stack']"
-    _reportes ="//*[@class='sc-fzqLLg hjnSEH']//a[@href='/reports']"
-    _ajustes = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/settings']"
+    #_contrapartes = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/']"
+    _contrapartes = "//div[contains(text(),'CONTRAPARTE')]"
+    #_documentos = "//*[@class='sc-fzqLLg hjnSEH']//a[@href='/all_documents']"
+    _documentos = "//*[@href='/all_documents']"
+    _colaprocesos = "//div[contains(text(),'COLA DE PROCESOS')]"
+    _reportes ="//div[contains(text(),'REPORTES')]"
+    _ajustes = "//div[contains(text(),'AJUSTES')]"
     _path = "all_documents"
+    _agregar_documentos = "//div[contains(text(),'AGREGAR DOCUMENTOS')]"
 
 
     def account_user(self):
