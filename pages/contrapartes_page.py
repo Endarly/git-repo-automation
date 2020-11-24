@@ -62,7 +62,8 @@ class ContrapartePage(BasePage):
     _texto_regulacion = "//*[@class='filterList']//div[contains(text(),'Regulación')]"
     _texto_nota = "//*[@class='filterList']//div[contains(text(),'Nota')]"
     _texto_resolucion = "//*[@class='filterList']//div[contains(text(),'Resolución')]"
-    _texto_plazo = "//*[@class='filterList']//div[contains(text(),'Fecha desde')]"
+    _texto_plazo_desde = "//*[@class='filterList']//div[contains(text(),'Fecha desde')]"
+    _texto_plazo_hasta = "//*[@class='filterList']//div[contains(text(),'Fecha hasta')]"
 
     def account_contraparte(self):
         self.elementClick(self._contrapartes, locatorType="xpath")
@@ -190,10 +191,18 @@ class ContrapartePage(BasePage):
         titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_resolucion)
         return titulo_busqueda.text
 
-    def bus_plazo(self):
+    def bus_plazo_desde(self):
         self.elementClick(self._busqueda_avanzada, locatorType="xpath")
         self.elementClick(self._tipo_documento, locatorType="xpath")
         self.elementClick(self._plazo, locatorType="xpath")
         self.elementClick(self._boton_aplicar, locatorType="xpath")
-        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_plazo)
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_plazo_desde)
+        return titulo_busqueda.text
+
+    def bus_plazo_hasta(self):
+        self.elementClick(self._busqueda_avanzada, locatorType="xpath")
+        self.elementClick(self._tipo_documento, locatorType="xpath")
+        self.elementClick(self._plazo, locatorType="xpath")
+        self.elementClick(self._boton_aplicar, locatorType="xpath")
+        titulo_busqueda = self.driver.find_element(By.XPATH, self._texto_plazo_hasta)
         return titulo_busqueda.text

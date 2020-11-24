@@ -11,9 +11,12 @@ import utilities.custom_logger as cl
 import logging
 from base.webdriverfactory import WebDriverFactory as wd
 import time
+from datetime import date
 
 @pytest.mark.usefixtures()
 class LoginTest(unittest.TestCase):
+    today = date.today()
+    today_url = today.strftime("%Y-%m-%d")
     log = cl.customLogger(logging.DEBUG)
     email = "EXB30522"
     password = "Viernes44*"
@@ -35,7 +38,8 @@ class LoginTest(unittest.TestCase):
     _bus_tipo_Regulacion = "Regulación"
     _bus_tipo_Nota = "Nota"
     _bus_tipo_Resolucion = "Resolución"
-    _plazo= "Fecha desde:"
+    _plazo_desde= "Fecha desde: "+today_url
+    _plazo_hasta = "Fecha hasta: " + today_url
 
     @pytest.fixture(autouse=True)
     def objectSetup(self):
@@ -105,4 +109,9 @@ class LoginTest(unittest.TestCase):
 
         assert (self.cp.account_contraparte() == self._url)
         assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
-        assert (self.cp.bus_plazo() == self._plazo)
+        assert (self.cp.bus_plazo_desde() == self._plazo_desde)
+
+
+        assert (self.cp.account_contraparte() == self._url)
+        assert (self.cp.account_buscar() == self._url + self._counterpart + self._id_counterpart)
+        assert (self.cp.bus_plazo_hasta() == self._plazo_hasta)
